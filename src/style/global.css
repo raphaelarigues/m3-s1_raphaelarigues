@@ -1,0 +1,28 @@
+:root{
+    --color-primary: #6880FF;
+    --color-hover: #7C91FF;
+    --color-black: black;
+    --color-white: white;
+    --font-primary: 'Inter', sans-serif;
+    --font-secundary: 'Regular', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: rgba(12, 12, 12, 0.94);
+    height: auto;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    line-height: initial;
+}
+
+@media  (min-width: 375px) and (max-width: 767px){
+    h1, h2, h4, h5, h6 {
+        color: white;
+        line-height: initial;
+        text-align: center;
+    }
+}

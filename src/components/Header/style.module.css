@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+    height: 6rem;
+}
+
+.ul{
+    display: flex;
+    width: 37rem;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+@media  (min-width: 375px) and (max-width: 767px){
+    .header{
+        width: 68%;
+        gap: 1rem;
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    .ul{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+}
+
+
+@media (max-width: 820px) {
+    .header{
+        width: 68%;
+    }       
+
+    .ul{
+        width: 50%; 
+    }
+}

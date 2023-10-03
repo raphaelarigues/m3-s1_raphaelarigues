@@ -1,0 +1,43 @@
+.aboutSection{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+
+}
+
+.paragraph__section{
+    line-height: 1.5;
+    width: 30rem;
+    text-align: justify;
+}
+
+@media  (min-width: 375px) and (max-width: 767px){
+    .aboutSection{
+        flex-direction: column;
+        height: 22rem;
+    }
+    .paragraph__section{
+        width: 19rem !important;
+        text-align: justify;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .aboutSection{
+        flex-direction: column;
+        text-align:center;
+        align-items: center;
+        margin: 0 auto;
+        height: 14rem;
+    }       
+
+    .paragraph__section{
+        width: 33rem;
+        text-align: justify;
+    }
+
+}

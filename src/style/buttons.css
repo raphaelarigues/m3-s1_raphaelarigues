@@ -1,0 +1,30 @@
+button{
+    width: 114px;
+    height: 39px;
+    color: #FFF;
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+}
+
+button:hover{
+    background-color: var(--color-hover);
+    cursor: pointer;
+}
+
+a{
+    list-style: none;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--color-hover);
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.project {
+    margin: 0 auto;
+    height: auto;
+    width: 73%;
+}
+
+.title__project {
+    line-height: 2;
+}
+
+.container__projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container_project{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 40%;
+    border-radius: 14px;
+    padding: 15px;
+    border: 2px solid grey;
+}
+
+.github_icon{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+@media  (min-width: 375px) and (max-width: 767px){
+    .project{
+        height: 58rem;
+    }
+    .container_project{
+        width: 60% !important;
+    }
+}

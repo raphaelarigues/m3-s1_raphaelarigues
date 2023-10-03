@@ -1,0 +1,45 @@
+.welcomeSection {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-around;
+}
+
+.welcomeSection > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.h1 {
+    width: 18rem;
+    line-height: revert !important;
+}
+
+@media  (min-width: 375px) and (max-width: 767px){
+    .welcomeSection{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .welcomeSection > div {
+        height: 15rem;
+    }
+
+    .img__welcomeSection {
+        max-width: 316px;
+    }
+}
+
+@media (max-width: 820px) {
+    .welcomeSection{
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 63px;
+    }
+
+    .img__welcomeSection{
+        max-width: 220px;
+    }
+}
